@@ -1,7 +1,7 @@
 package com.ohgiraffers.testfourteam.mvc.employee.model.dao;
 
-import com.ohgiraffers.mvc.common.config.ConfigLocation;
-import com.ohgiraffers.mvc.employee.model.dto.EmployeeDTO;
+import com.ohgiraffers.testfourteam.mvc.common.config.ConfigLocation;
+import com.ohgiraffers.testfourteam.mvc.employee.model.dto.EmployeeDTO;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
-import static com.ohgiraffers.mvc.common.jdbc.JDBCTemplate.close;
+import static com.ohgiraffers.testfourteam.mvc.common.jdbc.JDBCTemplate.close;
 
 public class EmployeeDAO {
 

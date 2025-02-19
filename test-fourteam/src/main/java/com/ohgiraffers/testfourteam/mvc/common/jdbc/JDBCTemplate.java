@@ -1,6 +1,6 @@
 package com.ohgiraffers.testfourteam.mvc.common.jdbc;
 
-import com.ohgiraffers.mvc.common.config.ConfigLocation;
+import com.ohgiraffers.testfourteam.mvc.common.config.ConfigLocation;
 
 import java.io.FileReader;
 import java.io.IOException;

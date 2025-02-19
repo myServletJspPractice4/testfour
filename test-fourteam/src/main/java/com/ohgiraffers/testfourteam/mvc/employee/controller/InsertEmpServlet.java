@@ -62,5 +62,4 @@ public class InsertEmpServlet extends HttpServlet {
 
         request.getRequestDispatcher(path).forward(request, response);
     }
-
 }

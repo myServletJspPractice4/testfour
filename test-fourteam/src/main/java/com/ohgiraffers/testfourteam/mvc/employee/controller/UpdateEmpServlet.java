@@ -22,18 +22,6 @@ public class UpdateEmpServlet extends HttpServlet {
         emp.setEmpId(empId);
         emp.setEntDate(entDate);
 
-        int result = new EmployeeService().updateEmp(emp);
 
-        String path = "";
-        if(result > 0) {
-            path = "/WEB-INF/views/common/successPage.jsp";
-            request.setAttribute("successCode", "updateEmp");
-        } else {
-            path = "/WEB-INF/views/common/errorPage.jsp";
-            request.setAttribute("message", "회원 정보 수정 실패!");
-        }
-
-        request.getRequestDispatcher(path).forward(request, response);
-    }
 
 }
